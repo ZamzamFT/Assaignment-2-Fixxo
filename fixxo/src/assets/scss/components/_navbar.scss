@@ -1,0 +1,74 @@
+nav{
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to right, #e6e6e6, #f5f5f5);
+
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+
+  #logo{
+    color: $clr-dark;  
+    font-size: $fs-35;
+    font-weight: $fw-bold;
+  } 
+
+  #logo:hover {
+    opacity: 0.8;   
+  }
+
+  .nav-list{
+    display: flex;
+    gap: clamp( 30px, 5vw, 30px);
+  }
+
+  .nav-list a:hover,
+  .nav-list a:focus{
+      color: $clr-light-red;
+  }
+
+  .nav-list .active {
+      color: $clr-light-red;
+  }
+
+.shopping-menu {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.625rem;
+ 
+}
+
+  .shopping-menu a {
+        background-color: $clr-white;
+        width: 2.25rem;
+        height: 2.25rem;
+        margin-left: 1.25rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 0.375rem 0.313rem $clr-shadow;
+  }
+
+  .shopping-menu a:hover{
+    color: $clr-light-red;
+  }
+  
+  
+
+
+
+
+
+
+}
+
+
