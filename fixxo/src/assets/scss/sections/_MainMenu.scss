@@ -3,7 +3,6 @@
     padding-top: 10px;
     padding-bottom: 10px;
     cursor: pointer;
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "logo menuicons"
@@ -128,6 +127,13 @@
         font-weight: $fw-medium;
   
        }
+
+       .active {
+        color: $clr-light-red
+      }
+
+
+       
       }
 
 
