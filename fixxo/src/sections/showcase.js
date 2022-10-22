@@ -3,7 +3,7 @@ import React from 'react'
 const Showcase = () => {
   return (
     <section className='showcase'>
-      <div className='container'>
+      <div className='_container'>
         <img src='images/headerimage.png' className="_1fr"  alt="a placeholder"  />
 
         

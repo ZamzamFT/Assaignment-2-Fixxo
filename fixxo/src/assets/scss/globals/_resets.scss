@@ -35,17 +35,14 @@ body {
 
 a{
     text-decoration: none;
+    color: $clr-dark;
 }
 
 a:visited {
-    color: var(--clr-dark);
+    color: $clr-dark;
     
   }
 
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-
-}
   
 
 img,
@@ -69,4 +66,12 @@ svg {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* General styling */
+body {
+  font-size: $fs-body ;
+  font-family: $ff-body;
+  color: $clr-dark; 
+  font-weight: $fw-regular;
 }

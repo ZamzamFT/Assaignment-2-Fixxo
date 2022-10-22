@@ -28,8 +28,10 @@
 
   }
 
+
+
   .bg-accent {
-    background-color: $clr-accent;
+    background-color: $clr-light-red;
   }
 
 
@@ -107,11 +109,14 @@
 
 /* layouts */
 /* containers */
-.container{
+._container{
   --max-width: 1684px ;
   --padding: 1rem;
   width: min(var(--max-width), 100% - (var(--padding) * 2));
   margin-inline: auto;
+  padding-left: 7.5rem;
+  padding-right: 7.25rem;
+  
 }
 
 
@@ -122,32 +127,6 @@
     }
   }
 
-  .d-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   }
-
-   .j-between{
-    justify-content: space-between;
-   }
-
-   .align-c {
-    align-items: center;
-   }
-   .d-f {
-    display: flex;
-   }
-
-   .d-none {
-    display: none;
-   }
-
-
-   header, section{
-    padding-left: 7.5rem;
-    padding-right: 7.25rem;
-   }
 
    ._1fr {
      flex: 1;
@@ -162,11 +141,3 @@
 
 
    
-  /* General styling */
-  body {
-    font-size: $fs-body ;
-    font-family: $ff-body;
-    color: $clr-dark; 
-    font-weight: $fw-regular;
-  }
-  

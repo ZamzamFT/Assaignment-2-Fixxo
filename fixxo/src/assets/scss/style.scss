@@ -1,9 +1,25 @@
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');   
+
+
+/* globals */
 @import "./globals/variables";
 @import "./globals/resets";
 @import "./globals/util";
 
 
-@import "./components/navbar";
-@import "./components/showcase";
+/* sections */
+@import "./sections/showcase";
+@import "./sections/MainMenu";
+@import "./sections/footerSection";
+
+
+
+
+/* components */
+
+
+
 
 
