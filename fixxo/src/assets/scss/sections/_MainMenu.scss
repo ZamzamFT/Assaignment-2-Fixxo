@@ -24,7 +24,7 @@
     
   
     .menu-links {
-      display: grid;
+      display: none;
       grid-area: menulinks;
       height: 100%;
       overflow: hidden;
@@ -88,6 +88,14 @@
         box-shadow: 0 0 0.375rem 0.313rem $clr-shadow;
       }
 
+      .btn-menu-icon {
+        color: $clr-white;
+        background-color: $clr-dark;
+        border: none;
+        box-shadow: 0 0 0.375rem 0.313rem $clr-shadow;
+
+      }
+
       
 
 
@@ -97,17 +105,21 @@
   @media (min-width: 1200px) {
 
     .mainmenu {
-      padding-top: 20px;
-      padding-bottom: 20px;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-areas: "logo menulinks menuicons";
+      padding-top: 20px;
+      padding-bottom: 20px;
     
      
 
       .menu-links {
         grid-area: menulinks;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
 
 
         
