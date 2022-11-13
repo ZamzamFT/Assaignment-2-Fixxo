@@ -9,6 +9,8 @@ import PreviusDeals from '../sections/PreviusDeals';
 
 
 const Home = () => {
+  window.top.document.title = 'Fixxo.'
+
 
   const [products, setProduct] = useState ([
     { id: 1, name: "Modern Black Blouse", category: "Fashion", price: "$40.00", rating: 5, img: "https://images.unsplash.com/photo-1601612635224-ed8bce54ee4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"},
