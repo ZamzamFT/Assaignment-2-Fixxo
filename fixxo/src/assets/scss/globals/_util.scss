@@ -1,149 +1,19 @@
 
-  /* Utility classes */
-  /*----text-color----*/
-  .text-primary{
-    color: $clr-dark;
-  }
-
-  .text-secondary{
-    color: $clr-white;
-  }
-
-  .text-accent{
-    color: $clr-light-red;
-  }
-
-  .text-neutral{
-    color: $clr-dark-gray;
-  }
-
-/*----background-color----*/
-  .bg-primary{
-    background-color: $clr-gray;
-
-  }
-
-  .bg-secondary{
-    background-color: $clr-white-smoke;
-
-  }
-
-
-
-  .bg-accent {
-    background-color: $clr-light-red;
-  }
-
-
-/*----font-weight---*/
-  .fw-regular {
-    font-weight: $fw-regular;
-  }
-
-  .fw-md { 
-    font-weight: $fw-medium;
-  }
-
-
-  .fw-bold {
-    font-weight: $fw-bold;
-  }
- 
-  .fw-semi-bold {
-    font-weight: $fw-semi-bold;
-  }
-  
-   .fw-extra-bold {
-    font-weight: $fw-extra-bold;
-   }
-
-/*---font-size----*/
-
-   .fs-primary-heading {
-    font-size: $fs-primary-heading;
-   }
-
-   .fs-secondary-heading{
-    font-size: $fs-secondary-heading;
-   }
-
-   .fs-sub-heading {
-    font-size: $fs-sub-heading;
-   }
-
-   .fs-13{
-    font-size: $fs-13;
-   }
-
-   .fs-16{
-    font-size: $fs-16;
-   }
-
-   .fs-18{
-    font-size: $fs-18;
-   }
-
-   .fs-20{
-    font-size: $fs-20;
-   }
-
-   .fs-24{
-    font-size: $fs-24;
-   }
-   
-   .fs-35 {
-    font-size: $fs-35;
-   }
-
-   .fs-45{
-    font-size: $fs-45;
-   }
-
-   .fs-65{
-    font-size: $fs-65;
-   }
-
-   .l-height {
-    line-height: 3.5rem;
-   }
-
-
-   .m {
-    margin-bottom: 30px;
-   }
-
-/* layouts */
-/* containers */
-._container{
-  --max-width: 1684px ;
-  --padding: 1rem;
-  width: min(var(--max-width), 100% - (var(--padding) * 2));
-  margin-inline: auto;
-  padding-left: 7.5rem;
-  padding-right: 7.25rem;
-  
+.bg-accent {
+  background-color: $clr-light-red;
 }
 
 
-  @media (min-width: 50em) {
-    .grid-container{
-        grid-auto-flow: column;
-        grid-auto-columns: 1fr;
-    }
-  }
 
-
-   ._1fr {
-     flex: 1;
-   }
-
-   ._2fr {
-    flex: 2 ;
+  /* Container */
+  ._container {
+    max-width: 1395px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
 
 /* button */
-
 
   .btn-theme {
     position: relative;
@@ -183,14 +53,50 @@
       background-color: $clr-dark;
     }
 
+  }
 
-    
+  .sale-btn {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: $clr-white;
+    color: $clr-dark;
+    padding: 20px 50px;
+    transition: all 0.2s ease-in-out ;
+    font-weight: $fw-semi-bold;
+
+    .corner-left {
+      position: absolute;
+      height: 20px;
+      width: 20px;
+      top: 10px;
+      left: 10px;
+      border-left: 1px solid $clr-dark;
+      border-top: 1px solid $clr-dark;
+
+
+    }
+
+    .corner-right {
+      position: absolute;
+      height: 20px;
+      width: 20px;
+      bottom: 10px;
+      right: 10px;
+      border-right: 1px solid $clr-dark;
+      border-bottom: 1px solid $clr-dark;
+    }
+
   }
 
 
+  
 
 
 
+
+
+  
 
 
 

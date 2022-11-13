@@ -1,0 +1,53 @@
+.Speccial-message {
+
+    ._container {
+
+        .banner {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 74px;
+        
+        
+             img {
+                width: 100% ;
+        
+             }
+        }
+
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+@media (min-width: 1200px) {
+    .Speccial-message {
+
+        ._container {
+    
+            .banner {
+                flex-wrap: nowrap;
+
+            
+            
+            }
+    
+        }
+    
+    
+    
+    
+    
+    }
+
+}

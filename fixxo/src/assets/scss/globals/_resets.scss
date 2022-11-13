@@ -45,12 +45,6 @@ a:visited {
 
   
 
-img,
-picture,
-svg {
-  max-width: 100%;
-  display: block;
-}
 
 
 @media (prefers-reduced-motion: reduce) {
@@ -70,8 +64,8 @@ svg {
 
 /* General styling */
 body {
-  font-size: $fs-body ;
-  font-family: $ff-body;
+  font-size: $fs-16 ;
+  font-family: $ff-primary;
   color: $clr-dark; 
   font-weight: $fw-regular;
 }

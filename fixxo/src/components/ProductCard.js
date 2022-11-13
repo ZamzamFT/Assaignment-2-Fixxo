@@ -22,12 +22,12 @@ const ProductCard = ({item}) => {
         <div className='card'>
             <div className='card-img'>
                 <img src={item.img} alt={item.name}/>
-                    <div class="card-menu d-xl-none">
+                    <div className="card-menu d-xl-none">
                         <button onClick={addToWishList} className="menu-link"><i className="fa-regular fa-heart"></i></button>
                         <button onClick={addToCompare} className="menu-link"><i className="fa-regular fa-code-compare fa-flip-horizontal"></i></button>
                         <button onClick={addToShoppingCart} className="menu-link"><i className="fa-regular fa-bag-shopping"></i></button>
                     </div>
-                    <NavLink to="/products" className='btn-theme btn-card-theme d-xl-none'>
+                    <NavLink to={`/products/${item.name.toLowerCase().replace(/ /gi, "-")}`} className='btn-theme btn-card-theme d-xl-none'>
                         <span className="corner-left"></span>
                         <span className="corner-right"></span>
                         QUICK VIEW

@@ -1,0 +1,58 @@
+.infoFooter {
+    margin-bottom: 65px;
+
+
+    .__continer {
+        max-width: 1110px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        border-top: 1px solid #e3e5e8;
+
+        
+
+       
+    
+
+        .info-box {
+            margin-top: 58px;
+            align-items: center;
+            text-align: center;            
+        
+            img {
+                margin-left: auto;
+                margin-right: auto; 
+            }
+
+            h3 {
+                font-weight: $fw-bold;
+                font-size: $fs-18;
+                color: $clr-dark;
+            }
+
+            p {
+                color: #616365;
+                font-size: 1rem;
+            }
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+}
+

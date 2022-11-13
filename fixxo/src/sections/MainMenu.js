@@ -15,10 +15,10 @@ const MainMenu = () => {
       <NavLink className="logo" to="/" end>Fixxo.</NavLink>
    
     
-      <div className={`menu-links ${ !showMenu ? "d-grid": "" }`}>
+      <div className={`menu-links ${ showMenu ? "d-grid": "" }`}>
         <NavLink className="menu-link" to="/" end>Home</NavLink>
         <NavLink className="menu-link" to="/Categories" end>Categories</NavLink>
-        <NavLink className="menu-link" to="/Products" end>Products</NavLink>
+        <NavLink className="menu-link" to="/Products" >Products</NavLink>
         <NavLink className="menu-link"  to="/Contact" end>Contact</NavLink>
       </div>
 

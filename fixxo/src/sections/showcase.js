@@ -1,24 +1,36 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
+import img1 from '../assets/images/headerimage.png'
+import img2 from '../assets/images/headerimage2.png'
 
-const Showcase = () => {
+
+
+const ShowCase = () => {
   return (
     <section className='showcase'>
-      <div className='_container'>
-        <img src='images/headerimage.png' className="_1fr"  alt="a placeholder"  />
-
-        
-          <div className='_2fr'>
-            <h1>Sale Up</h1>
-            <h1>To 50% Off</h1>
-            <p>Online shopping free home delivery over $100</p>
-          </div>
-
-
-          <img src='images/headerimage2.png' alt="a placeholder" className='_1fr'   />
-
+      <div className="showcase-conatainer">
+        <img src={img1} className="img-left" alt="showcase-img-1" />
+        <div className="showcase-body">
+          <h1>Sale Up</h1>
+          <h1>To 50% Off</h1>
+          <p>Online shopping free home deliver over $100</p>
+          <NavLink to="/products" className="btn-theme" end>
+            <span className="btn-theme-corner-left"></span>
+            <span className="btn-theme-corner-right"></span>
+            SHOP NOW
+          </NavLink>
+        </div>
+        <img src={img2} className="img-right" alt="showcase-img-2" />
       </div>
+      
+
+
+
+
+
+
     </section>
   )
 }
 
-export default Showcase
+export default ShowCase
