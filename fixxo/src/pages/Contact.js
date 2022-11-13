@@ -1,7 +1,7 @@
 import React from 'react'
 import BreadCrumb from '../sections/BreadCrumb'
-import ContactForm from '../sections/ContactForm'
 import Map  from '../sections/Map'
+import NewContactForm from '../sections/ContactForm.js'
 
 
 
@@ -12,7 +12,7 @@ const Contact = () => {
     <>
      <BreadCrumb currentPage="Contacts"/>
      <Map />
-     <ContactForm />
+     <NewContactForm />
    
     </>
 
