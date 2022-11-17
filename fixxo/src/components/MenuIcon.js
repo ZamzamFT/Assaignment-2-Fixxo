@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-const MenuIcon = ({link, icon, quantity, hideOnMobile, hideOnTablet }) => {
+const MenuIcon = ({ link, icon, quantity, hideOnMobile, hideOnTablet }) => {
   
 
   return (
